@@ -1,0 +1,17 @@
+.statistic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistic-item {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255, 0.4);
+}
+
+.statistic-item-description {
+    margin-top: 10px;
+    color: rgb(255, 255, 255, 1);
+    font-size: 25px;
+    line-height: 30px;
+}

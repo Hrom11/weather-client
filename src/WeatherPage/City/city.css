@@ -1,0 +1,65 @@
+.city-text {
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.change-city-wrapper {
+    display: flex;
+    color: rgb(255, 255, 255, 0.6);
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.change-city-block {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+.geo-block {
+    cursor: pointer;
+    display: flex;
+}
+
+.geo-block svg {
+    padding-right: 11px;
+}
+
+.autocomplete {
+    position: relative;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.autocomplete > div {
+    height: 36px;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    bottom: 50%;
+    color: rgba(16, 134, 255, 1);
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.autocomplete > div:hover {
+    color: rgba(16, 135, 255, 0.6)
+}
+
+.autocomplete > input {
+    -webkit-appearance: none;
+    outline: none;
+    padding: 30px 100px 30px 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: none;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.autocomplete > input :focus {
+    outline-color: transparent;
+    outline-style: none;
+  } 

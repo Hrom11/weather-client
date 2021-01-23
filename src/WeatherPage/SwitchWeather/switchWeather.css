@@ -1,0 +1,30 @@
+.switch-weather-conainer {
+    display: flex;
+    color: rgb(255, 255, 255, 0.4);
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.switch-weather {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255, 0.4);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.active {
+    color: rgb(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.2);
+    
+}
+
+.container {
+    cursor: pointer;
+    padding: 4px 14px 3px 14px;
+}
+
+.circle {
+    font-size: 18px;
+    line-height: 28px;
+    padding-right: 9px;
+}

@@ -1,0 +1,19 @@
+.current-weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 180px;
+    line-height: 216px;
+}
+
+.weather-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.weather-description {
+    padding-top: 10px;
+    font-size: 25px;
+    line-height: 30px;
+}
